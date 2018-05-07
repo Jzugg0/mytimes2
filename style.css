@@ -36,13 +36,12 @@ li{
   display: flex;
   padding-top: 100px;
   border: 2px solid black;
-  height: 2000px;
+  height: 1500px;
 }
 .columnlarge{
   width: 630px;
   border: 1px solid black;
   height: 550px;
-  align-items: center;
 }
 .columnmedium{
   width: 300px;
@@ -64,6 +63,7 @@ li{
   border: 1px solid black;
   font-family: georgia;
   font-size: 17px;
+  display: flex;
 }
 #earth{
   border: 1px solid black;
@@ -78,6 +78,7 @@ li{
   border: 1px solid black;
   font-family: georgia;
   font-size: 17px;
+  display: flex;
 }
 #research{
   border: 1px solid black;
@@ -123,4 +124,18 @@ li{
   font-family: georgia;
   font-weight: bold;
   font-size: 30px;
+}
+#columnlargeleft{
+  display: block;
+  width:auto;
+  height: 100px;
+}
+#columnlargeright{
+  display: block;
+  height: 100px;
+}
+#doublecolumnholder{
+  display: flex;
+  border: 1px solid black;
+  align-items: flex-end;
 }
