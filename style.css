@@ -1,0 +1,36 @@
+.header{
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  background-color: white;
+  width: 100%;
+
+}
+nav{
+  display: flex;
+  width: 300px;
+  padding-left: 650px;
+
+}
+.logo{
+  color: mediumaquamarine;
+}
+#pagename{
+  color: mediumaquamarine;
+}
+.links{
+  display: flex;
+  justify-content: space-around;
+  padding: 5px 20px 5px 20px;
+}
+li{
+  list-style-type: none;
+}
+.main{
+  display: flex;
+  padding-top: 50px;
+
+}
