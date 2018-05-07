@@ -84,7 +84,7 @@ li{
   border: 1px solid black;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png");
   color: white;
-  min-height: 300px;
+  height: 300px;
   font-family: georgia;
   font-weight: bold;
   font-size: 30px;
@@ -127,15 +127,15 @@ li{
 }
 #columnlargeleft{
   display: block;
-  width:auto;
-  height: 100px;
 }
 #columnlargeright{
   display: block;
-  height: 100px;
 }
 #doublecolumnholder{
   display: flex;
   border: 1px solid black;
   align-items: flex-end;
+}
+.columns-inside{
+  padding: 0px
 }
