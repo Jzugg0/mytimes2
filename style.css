@@ -9,14 +9,16 @@ header{
   width: 100%;
   border: 1px solid black;
   top: 0px;
+  justify-content: space-between;
 }
 nav{
   display: flex;
   width: auto;
-  padding-left: 650px;
 }
 .logo{
   color: mediumaquamarine;
+  display: flex;
+  align-items: center;
 }
 #pagename{
   color: mediumaquamarine;
@@ -35,53 +37,44 @@ li{
 .main{
   display: flex;
   padding-top: 100px;
-  border: 2px solid black;
-  height: 1500px;
+  height: auto;
 }
 .columnlarge{
   width: 630px;
-  border: 1px solid black;
   height: 550px;
 }
 .columnmedium{
   width: 300px;
-  border: 1px solid black;
 }
 .columnsmall{
   width: 240px;
-  border: 1px solid black;
 }
 #column{
   margin: 3px 20px 20px 20px;
 }
 #mother{
-  border: 1px solid black;
   font-size: 17px;
   font-family: georgia;
 }
 #orca{
-  border: 1px solid black;
   font-family: georgia;
   font-size: 17px;
   display: flex;
 }
 #earth{
-  border: 1px solid black;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png");
-  min-height: 300px;
+  height: 300px;
   color: white;
   font-family: georgia;
   font-size: 30px;
   font-weight: bold;
 }
 #burger{
-  border: 1px solid black;
   font-family: georgia;
   font-size: 17px;
   display: flex;
 }
 #research{
-  border: 1px solid black;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png");
   color: white;
   height: 300px;
@@ -90,7 +83,6 @@ li{
   font-size: 30px;
 }
 #fbi{
-  border: 1px solid black;
   font-size: 17px;
   font-family: georgia;
 }
@@ -103,7 +95,6 @@ li{
   font-family: georgia;
 }
 #cats{
-  border: 1px solid black;
   font-size: 17px;
   font-family: georgia;
 }
@@ -112,14 +103,13 @@ li{
   min-height: 250px;
 }
 #bites{
-  border: 1px solid black;
   font-family: georgia;
-  font-size: 17px;
+  font-size: 16px;
+  font-weight: bold;
 }
 #motherpic{
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
   min-height: 250px;
-  border: 1px solid black;
   color: white;
   font-family: georgia;
   font-weight: bold;
@@ -127,15 +117,37 @@ li{
 }
 #columnlargeleft{
   display: block;
+  height: 558px;
 }
 #columnlargeright{
   display: block;
 }
 #doublecolumnholder{
   display: flex;
-  border: 1px solid black;
   align-items: flex-end;
 }
-.columns-inside{
-  padding: 0px
+.column-inside{
+  padding: 5px 5px;
+}
+#newsbitesmenu{
+  background color: whitesmoke;
+  font-family: Verdana;
+  font-size: 16px;
+  color: Dimgray;
+  display: flex;
+  flex-direction: column;
+  
+
+
+
+}
+.MI{
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  display: flex;
+  height: auto;
+
+
+
+
 }
